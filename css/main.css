@@ -3,6 +3,8 @@
  */
 
 * {
+  margin:0;
+  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -16,7 +18,7 @@
 }
 
 body {
-  /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -34,4 +36,91 @@ a {
 
 a:hover {
   color: #E95853;
+}
+header{
+  position: fixed;
+  background: white;
+  width: 100%
+  top:0;
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top:7px;
+}
+#box-services-modal{
+  background-color:rgba(240,) 
+  width:100%;
+  height: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row:before, .row:after{
+  content: "";
+  clear: both;
+}
+.row:after{
+  clear:both;
+}
+[class*="col-"]{
+  min-height: 7px;
+  padding: 12px;
+  float:left;
+}
+.col-1{
+  /*(1/12)*100 */
+  width: 8.333333%;
+}
+.col-2{
+  /*(2/12)*100 */
+  width: 16.666667%;
+}
+.col-3{
+  /*(3/12)*100 */
+  width: 25%:;
+}
+.col-4{
+  /*(4/12)*100 */
+  width: 33.333333%;
+}
+.col-5{
+  /*(5/12)*100 */
+  width: 41.666667%;
+}
+.col-6{
+  /*(6/12)*100 */
+  width: 50%;
+}
+.col-7{
+  /*(7/12)*100 */
+  width: 58.333333%;
+}
+.col-8{
+  /*(8/12)*100 */
+  width: 66.666667%;
+}
+.col-9{
+  /*(9/12)*100 */
+  width: 75%;
+}
+.col-10{
+  width: 83.333333%;
+}
+.col-11{
+  width: 91.666667%;
+}
+.col-12{
+  width: 100%;
+}
+.img-responsive{
+  max-width: 100%;
+  width: 100%;
 }
